@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  background-color: rgb(102, 78, 208);
+  color: white;
+}
+h1{
+  text-shadow: 2px 2px 5px rgb(45, 45, 45);
+}
+.imagecontainer{
+  width: 400px;
+  height: 400px;
+  border-radius: 100%;
+  border: 5px solid white;
+  margin-top: 100px;
+}
+

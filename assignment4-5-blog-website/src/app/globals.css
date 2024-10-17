@@ -1,0 +1,245 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header{
+  font-size: 24px;
+  color: white;
+  height:fit-content;
+  padding-right: 30px;
+  padding-left: 60px;
+  background: linear-gradient(90deg, #1b2e4d 0, #0d2f6f 100%);
+  border-bottom: 2px solid #123e90;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+ul{
+  list-style-type: none;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+}
+@media only screen and (max-width: 600px) {
+  .header {
+      flex-direction:column;
+      align-items: center;
+      justify-content: center;
+      padding: 0px;
+  }
+}
+@media only screen and (max-width: 410px) {
+  .header {
+      font-size: 18px;
+  }
+}
+  .main{
+  background: linear-gradient(to bottom, #0d2e6b, white);
+}
+.heading{
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 12px #000;
+  padding: 80px 10px 20px 10px;
+}
+.para{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 23px;
+  text-align: center;
+  padding-right: 50px;
+  padding-left: 50px;
+  color: white;
+  text-shadow: 2px 2px 12px #000;
+}
+@media only screen and (max-width: 600px) {
+  .heading {
+      font-size: 45px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .heading {
+      font-size: 40px;
+      line-height: 50px;
+  }
+}
+
+.parentContainer{
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  overflow: auto;
+  padding-bottom: 30px;
+}
+.childContainer{
+  background-color: white;
+  border-radius: 20px;
+  width: 320px;
+  height: fit-content;
+  padding: 10px;
+  margin: 30px;
+  cursor: pointer;
+}
+.childContainer:hover{
+  transform: scale(1.02);
+  border: 2px solid #123e90;
+  box-shadow:inset 0px 3px 8px #123e90;
+}
+.title{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.description{
+  font-size: 15px;
+}
+.readMore{
+  margin-top: 10px;
+  border: 2px solid #0044c3;
+  color: #0044c3;
+  padding: 5px 20px;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 11px;
+}
+.readMore:hover{
+  background-color: #0044c3;
+  color: white;
+  border: 2px solid #0044c3;
+}
+
+.blogMainContainer{
+  width: 100%;
+  background: linear-gradient(to top, #4c6289, white);
+}
+.blogPic{
+  height: 450px;
+  width: 100%;
+}
+.blogPic img{
+  height: 450px;
+  width: 100%;
+}
+.blogContantContainer h2{
+  padding:20px 30px 15px 30px;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  text-decoration: underline;
+}
+.blogContantContainer h3{
+  font-size: 30px;
+  font-weight: bold;
+  padding: 10px 30px 5px 30px;
+}
+.blogContantContainer p{
+  font-size: 22px;
+  padding:0px 30px 10px 30px;
+}
+p.footertop{
+  padding-bottom: 70px;
+}
+
+.footer{
+  background:linear-gradient(90deg, #1b2e4d 0, #123e90 100%);
+  height: fit-content;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 22px;
+  font-weight: bold;
+  color:  white;
+  padding: 15px;
+}
+@media only screen and (max-width: 600px) {
+  .footer {
+      flex-direction:column;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+     
+  }
+}
+ 
+@media only screen and (max-width: 410px) {
+  .footer {
+      font-size: 18px;
+     
+  }
+}
+.about{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background: linear-gradient(to top, #335082, white);
+  height:fit-content;
+  padding: 10px;
+  flex-wrap:wrap;
+  overflow: auto;
+}
+.detail{
+  width: 550px;
+  height: fit-content;
+  margin-top: 93px;
+}
+.aboutHeading{
+  font-size: 28px;
+  font-weight: bold;
+  text-align: left;
+  color: white;
+  padding-bottom: 20px;
+}
+.aboutMainHeading{
+  font-size: 60px;
+  font-weight: bold;
+  text-align: left;
+}
+.aboutHeadings{
+  font-size: 32px;
+  font-weight: bold;
+  text-align: left;
+  color: white;
+  padding-bottom: 20px;
+}
+h1 span{
+  color: #0d2e6b;
+  text-shadow:2px 2px 5px #d4e4ff;
+}
+.aboutpara{
+  font-size: 22px;
+  text-shadow: 2px 2px 12px #000;
+  color: white;
+}
+.mypic{
+  height: 403px;
+  margin: 93px 0px;
+}
+.mypic img{
+  width: 100%;
+  height: 100%;
+  border-radius:300px;
+}
+.contactMainBody{
+  width: 100%;
+  background:  linear-gradient(to top, #335082, #e7efff);;
+}
+.formMainBody{
+  background-color: #0d2e6b;
+}
+button.gradientone{
+  background: linear-gradient(to bottom, #123e90, rgb(0, 191, 255));
+}
+button.gradientone:hover{
+  background: linear-gradient(to top, #123e90, rgb(0, 191, 255));
+}

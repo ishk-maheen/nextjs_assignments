@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.head{
+  background-color: rgb(84, 84, 196);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 10vh;
+  width: 100vw;
+  padding: 0 20px;
+  color: white;
+}
+ul{
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+}
+.about{
+  margin:auto;
+  padding: 20px 20px 20px 20px;
+  color: black;
+  font-size: 20px;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+.contact{
+  padding: 20px;
+  color: black;
+  font-size: 20px;
+}
+h1{
+  margin: 5vh 0vh 2vh 0vh;
+  font-size: 22px;
+  font-weight: bold;
+}
+.button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(109, 109, 255);
+  color: white;
+  padding: 10px 20px;
+  font-size: 20px;  
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100px;
+}
+.main{
+  width: 100vw;
+  height: calc(100vh - 10vh - 8vh);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  background: #d8e2ff;
+}
+.foot{
+  width: 100vw;
+  height:8vh;
+  background-color: #bdcdff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-top: 2px solid #9bb0ef ;
+}
+.linkedin{
+  background-color: #0072b0;
+  color: white;
+  border-radius: 3px;
+  padding: 2px;
+}
+.github{
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+  padding: 2px 3px;
+}
+.facebook{
+  background-color: rgba(0, 72, 255, 0.808);
+  color: white;
+  border-radius: 30px;
+  padding: 2px;
+}
+.instagram{
+  background: radial-gradient(circle at 30% 30%, #fdf497 0%, #fdf497 0%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  border-radius: 5px;
+  color: white;
+  padding: 2px;
+}
+.whatsapp{
+  border-radius: 30px;
+  background-color:limegreen;
+  color: white;
+  padding: 2px;
+}
