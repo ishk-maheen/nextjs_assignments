@@ -10,7 +10,7 @@ export default function Blog1() {
                 />
             </div>
             <div className="blogContantContainer">
-                <h2 className="blogMainHeading">The Importance of Mental Health in Today's Busy World</h2>
+                <h2 className="blogMainHeading">The Importance of Mental Health in Today Busy World</h2>
                 <h3>Introduction</h3>
                 <p>In todays fast-paced society, mental health is more important than ever. The demands of work, social life, and personal responsibilities often lead to stress, anxiety, and burnout.</p>
                 <h3>Understanding Mental Health</h3>

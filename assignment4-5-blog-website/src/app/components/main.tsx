@@ -24,7 +24,7 @@ export default function Main() {
                         style={{ borderRadius: '5%' }}
                          />
                 </div>
-                <h2 className="title">The Importance of Mental Health in Today's Busy World</h2>
+                <h2 className="title">The Importance of Mental Health in Todays Busy World</h2>
                 <p className="description">The growing significance of mental health, ways to manage stress, and tips on maintaining emotional well-being amidst daily challenges.</p>
                 <div>
                     <Link href="/blog1">
